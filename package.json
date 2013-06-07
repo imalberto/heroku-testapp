@@ -1,0 +1,13 @@
+{
+ "name": "testapp1",
+ "description": "",
+ "version": "0.1.0",
+ "keywords": [ "" ],
+ "maintainers": [ "" ],
+ "main": "appserver.js",
+ "start2": "node ./server.js",
+ "contributors": [ "" ],
+ "dependencies": {
+   "express": "*"
+ }
+}
