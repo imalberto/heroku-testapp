@@ -12,6 +12,6 @@ app.get('/*', function (req, res) {
     res.send('[' + time + '] 200 OK');
 });
 
-app.set('port', 80);
+app.set('port', process.env.PORT || 8666);
 
 module.exports = app;
