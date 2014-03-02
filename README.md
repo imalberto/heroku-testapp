@@ -1,9 +1,10 @@
 
-## ynodejs env
+## nodejs env
 
-    node-start ./index.js
+    node ./app.js
 
-    open: http://carryletter.corp.yahoo.com:8888/
+
+    open: http://localhost:8888/
 
 
 
