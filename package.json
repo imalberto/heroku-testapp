@@ -2,12 +2,25 @@
  "name": "testapp1",
  "description": "",
  "version": "0.1.0",
- "keywords": [ "" ],
- "maintainers": [ "" ],
+ "keywords": [
+  ""
+ ],
+ "maintainers": [
+  ""
+ ],
  "main": "appserver.js",
  "start2": "node ./server.js",
- "contributors": [ "" ],
+ "contributors": [
+  ""
+ ],
  "dependencies": {
-   "express": "*"
+  "express": "*"
+ },
+ "subdomain": "imalberto-testapp1",
+ "scripts": {
+  "start": "node app1.js"
+ },
+ "engines": {
+  "node": "0.8.x"
  }
 }
